@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mu.bebecheckproject.TemperatureFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <Button
+            android:textColor="@android:color/white"
+            android:id="@+id/direct_input_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@null"
+            android:drawableLeft="@drawable/directinputbtn_selector"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:text="직접입력" />
+
+        <Button
+            android:textColor="@android:color/white"
+            android:id="@+id/graph_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@null"
+            android:drawableLeft="@drawable/graphbtn_selector"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:text="보고서" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
